@@ -15,6 +15,9 @@
 		933BEC0524674AFF009335D2 /* ITMSMetrics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 933BEC0324674AFF009335D2 /* ITMSMetrics.xcdatamodeld */; };
 		933BEC0724674B01009335D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933BEC0624674B01009335D2 /* Assets.xcassets */; };
 		933BEC0A24674B01009335D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933BEC0824674B01009335D2 /* LaunchScreen.storyboard */; };
+		933BEC1224674D1B009335D2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933BEC1124674D1B009335D2 /* LoginViewController.swift */; };
+		933BEC1524674F6F009335D2 /* UIColorAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933BEC1424674F6F009335D2 /* UIColorAdditions.swift */; };
+		933BEC1724674FA9009335D2 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933BEC1624674FA9009335D2 /* LoginButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		933BEC0624674B01009335D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		933BEC0924674B01009335D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		933BEC0B24674B01009335D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933BEC1124674D1B009335D2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		933BEC1424674F6F009335D2 /* UIColorAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorAdditions.swift; sourceTree = "<group>"; };
+		933BEC1624674FA9009335D2 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 		933BEBF724674AFF009335D2 /* ITMSMetrics */ = {
 			isa = PBXGroup;
 			children = (
+				933BEC1324674F4C009335D2 /* Design */,
 				933BEBF824674AFF009335D2 /* AppDelegate.swift */,
 				933BEBFA24674AFF009335D2 /* SceneDelegate.swift */,
 				933BEBFC24674AFF009335D2 /* FirstViewController.swift */,
@@ -69,8 +76,18 @@
 				933BEC0824674B01009335D2 /* LaunchScreen.storyboard */,
 				933BEC0B24674B01009335D2 /* Info.plist */,
 				933BEC0324674AFF009335D2 /* ITMSMetrics.xcdatamodeld */,
+				933BEC1124674D1B009335D2 /* LoginViewController.swift */,
 			);
 			path = ITMSMetrics;
+			sourceTree = "<group>";
+		};
+		933BEC1324674F4C009335D2 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				933BEC1424674F6F009335D2 /* UIColorAdditions.swift */,
+				933BEC1624674FA9009335D2 /* LoginButton.swift */,
+			);
+			path = Design;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,10 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				933BEC1224674D1B009335D2 /* LoginViewController.swift in Sources */,
+				933BEC1724674FA9009335D2 /* LoginButton.swift in Sources */,
 				933BEBFF24674AFF009335D2 /* SecondViewController.swift in Sources */,
 				933BEBFD24674AFF009335D2 /* FirstViewController.swift in Sources */,
 				933BEBF924674AFF009335D2 /* AppDelegate.swift in Sources */,
 				933BEBFB24674AFF009335D2 /* SceneDelegate.swift in Sources */,
+				933BEC1524674F6F009335D2 /* UIColorAdditions.swift in Sources */,
 				933BEC0524674AFF009335D2 /* ITMSMetrics.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
