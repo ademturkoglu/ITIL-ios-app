@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		831BDB09901080C3FF78495C /* Pods_ITMSMetrics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF0DA6EC44E5F2F08C5F1A8 /* Pods_ITMSMetrics.framework */; };
 		933BEBF924674AFF009335D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933BEBF824674AFF009335D2 /* AppDelegate.swift */; };
 		933BEBFB24674AFF009335D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933BEBFA24674AFF009335D2 /* SceneDelegate.swift */; };
 		933BEBFD24674AFF009335D2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933BEBFC24674AFF009335D2 /* FirstViewController.swift */; };
@@ -18,9 +19,14 @@
 		933BEC1224674D1B009335D2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933BEC1124674D1B009335D2 /* LoginViewController.swift */; };
 		933BEC1524674F6F009335D2 /* UIColorAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933BEC1424674F6F009335D2 /* UIColorAdditions.swift */; };
 		933BEC1724674FA9009335D2 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933BEC1624674FA9009335D2 /* LoginButton.swift */; };
+		934B096B248E681500CEF965 /* ITMSMetrics.json in Resources */ = {isa = PBXBuildFile; fileRef = 934B096A248E681500CEF965 /* ITMSMetrics.json */; };
+		934B096D248E915600CEF965 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934B096C248E915600CEF965 /* TableViewCell.swift */; };
+		934B096F248EF37F00CEF965 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934B096E248EF37F00CEF965 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D7B184E4C990D5848388F3C /* Pods-ITMSMetrics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITMSMetrics.release.xcconfig"; path = "Target Support Files/Pods-ITMSMetrics/Pods-ITMSMetrics.release.xcconfig"; sourceTree = "<group>"; };
+		689609843256080CD041DC70 /* Pods-ITMSMetrics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITMSMetrics.debug.xcconfig"; path = "Target Support Files/Pods-ITMSMetrics/Pods-ITMSMetrics.debug.xcconfig"; sourceTree = "<group>"; };
 		933BEBF524674AFF009335D2 /* ITMSMetrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITMSMetrics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		933BEBF824674AFF009335D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		933BEBFA24674AFF009335D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +40,10 @@
 		933BEC1124674D1B009335D2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		933BEC1424674F6F009335D2 /* UIColorAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorAdditions.swift; sourceTree = "<group>"; };
 		933BEC1624674FA9009335D2 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		934B096A248E681500CEF965 /* ITMSMetrics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ITMSMetrics.json; sourceTree = "<group>"; };
+		934B096C248E915600CEF965 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		934B096E248EF37F00CEF965 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AFF0DA6EC44E5F2F08C5F1A8 /* Pods_ITMSMetrics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ITMSMetrics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				831BDB09901080C3FF78495C /* Pods_ITMSMetrics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73711527529D7288E93E97CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFF0DA6EC44E5F2F08C5F1A8 /* Pods_ITMSMetrics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		933BEBEC24674AFF009335D2 = {
 			isa = PBXGroup;
 			children = (
 				933BEBF724674AFF009335D2 /* ITMSMetrics */,
 				933BEBF624674AFF009335D2 /* Products */,
+				9E51A15AA719ED63BB23693E /* Pods */,
+				73711527529D7288E93E97CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +98,9 @@
 				933BEC0B24674B01009335D2 /* Info.plist */,
 				933BEC0324674AFF009335D2 /* ITMSMetrics.xcdatamodeld */,
 				933BEC1124674D1B009335D2 /* LoginViewController.swift */,
+				934B096A248E681500CEF965 /* ITMSMetrics.json */,
+				934B096C248E915600CEF965 /* TableViewCell.swift */,
+				934B096E248EF37F00CEF965 /* DetailViewController.swift */,
 			);
 			path = ITMSMetrics;
 			sourceTree = "<group>";
@@ -90,6 +114,15 @@
 			path = Design;
 			sourceTree = "<group>";
 		};
+		9E51A15AA719ED63BB23693E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				689609843256080CD041DC70 /* Pods-ITMSMetrics.debug.xcconfig */,
+				4D7B184E4C990D5848388F3C /* Pods-ITMSMetrics.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 933BEC0E24674B01009335D2 /* Build configuration list for PBXNativeTarget "ITMSMetrics" */;
 			buildPhases = (
+				74131B2DB174580A578B95E0 /* [CP] Check Pods Manifest.lock */,
 				933BEBF124674AFF009335D2 /* Sources */,
 				933BEBF224674AFF009335D2 /* Frameworks */,
 				933BEBF324674AFF009335D2 /* Resources */,
+				4751FFE7CC06825696D97749 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				934B096B248E681500CEF965 /* ITMSMetrics.json in Resources */,
 				933BEC0A24674B01009335D2 /* LaunchScreen.storyboard in Resources */,
 				933BEC0724674B01009335D2 /* Assets.xcassets in Resources */,
 				933BEC0224674AFF009335D2 /* Main.storyboard in Resources */,
@@ -155,6 +191,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4751FFE7CC06825696D97749 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ITMSMetrics/Pods-ITMSMetrics-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ITMSMetrics/Pods-ITMSMetrics-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ITMSMetrics/Pods-ITMSMetrics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74131B2DB174580A578B95E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ITMSMetrics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		933BEBF124674AFF009335D2 /* Sources */ = {
@@ -164,9 +242,11 @@
 				933BEC1224674D1B009335D2 /* LoginViewController.swift in Sources */,
 				933BEC1724674FA9009335D2 /* LoginButton.swift in Sources */,
 				933BEBFF24674AFF009335D2 /* SecondViewController.swift in Sources */,
+				934B096D248E915600CEF965 /* TableViewCell.swift in Sources */,
 				933BEBFD24674AFF009335D2 /* FirstViewController.swift in Sources */,
 				933BEBF924674AFF009335D2 /* AppDelegate.swift in Sources */,
 				933BEBFB24674AFF009335D2 /* SceneDelegate.swift in Sources */,
+				934B096F248EF37F00CEF965 /* DetailViewController.swift in Sources */,
 				933BEC1524674F6F009335D2 /* UIColorAdditions.swift in Sources */,
 				933BEC0524674AFF009335D2 /* ITMSMetrics.xcdatamodeld in Sources */,
 			);
@@ -310,6 +390,7 @@
 		};
 		933BEC0F24674B01009335D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689609843256080CD041DC70 /* Pods-ITMSMetrics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -328,6 +409,7 @@
 		};
 		933BEC1024674B01009335D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D7B184E4C990D5848388F3C /* Pods-ITMSMetrics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,377 @@
+[
+    {
+        "id": "3261e2b2-9b5b-4001-bbff-a278d81f0af8",
+        "name": "IT Metic - Budget Variance",
+        "goal": "Budget variance for a department, team or project typically expressed as a percentage of budget."
+    },
+    {
+        "id": "48df618d-3523-46a1-89b3-8c1c3affc622",
+        "name": "IT Metic - Capability Rate",
+        "goal": "A capability rate is a type of metric that is produced by mapping business entities such as products to technical capabilities such as ecommerce, customer relationship management, self service or billing. For example, the percentage of your products that are available on your ecommerce channel."
+    },
+    {
+        "id": "9e3f60c7-4420-4e1a-9aa5-fd35f958aeef",
+        "name": "IT Metic - Change Request Cycle Time",
+        "goal": "Change request cycle time is the average time between work-start and successful launch of a change request."
+    },
+    {
+        "id": "9d36825b-16ac-4430-854a-24a7096231ea",
+        "name": "IT Metic - Change Success Rate",
+        "goal": "The percentage of change requests that are successful at first launch."
+    },
+    {
+        "id": "db1bf204-b20c-4039-abbc-47ca7fc26157",
+        "name": "IT Metic - Customer Satisaction Rate",
+        "goal": "Customer Satisaction Rate is a rating of client satisfaction with IT activities such as programs, projects, service requests, change requests and operations. It is common for clients to be provided regular opportunities to give feedback with a direct question such as \"how satisfied were you with the handling of this change request?\""
+    },
+    {
+        "id": "f121bb64-f027-4a03-bfc9-657fd86f4f17",
+        "name": "IT Metic - Defect Density",
+        "goal": "The number of defects for a service, application or software component expressed as a rate. For example, defects per thousand lines of code."
+    },
+    {
+        "id": "f127fb2d-50bf-4dc6-a42c-cf904dc5ab93",
+        "name": "IT Metic - Defect Resolution Rate",
+        "goal": "The percentage of defects that have been resolved. Often measured for a project."
+    },
+    {
+        "id": "3c937072-cb4f-43fe-aab3-21c241f79ff7",
+        "name": "IT Metic - First Response Time",
+        "goal": "A service desk metric that measures how long it takes to get a meaningful response to a service request other than a generic auto-reply."
+    },
+    {
+        "id": "628edee8-7b8a-4689-a10a-0c5cb3730f59",
+        "name": "IT Metic - Function Points",
+        "goal": "Function points are a metric of software complexity that generally correspond to a functional requirement."
+    },
+    {
+        "id": "c1e6f3ec-6134-405a-a4c3-50604f44b56f",
+        "name": "IT Metic - Incidents",
+        "goal": "An incident is a negative event such as a failure. Incidents are typically reported as monthly totals by severity."
+    },
+    {
+        "id": "3a7057d0-eebc-487e-bbd1-454e1962f5b6",
+        "name": "IT Metic - Information Security Scores",
+        "goal": "A regular security evaluation may be performed on platforms, services, processes and applications. These typically produce a score with three to five security levels that have clear definitions."
+    },
+    {
+        "id": "b41a70cc-ebb8-4325-8d75-502484801656",
+        "name": "IT Metic - It Overhead",
+        "goal": "Total IT spend for a period expressed as a percentage of revenue. Useful for benchmarking against an industry or competitor."
+    },
+    {
+        "id": "7d9269b1-9f3e-46e1-b337-bde391c39d90",
+        "name": "IT Metic - It Risk Score",
+        "goal": "IT risk management evaluations that produce a risk score typically calculated as impact × probability."
+    },
+    {
+        "id": "ea48b06f-48a0-47ae-b781-8a41c94a04f9",
+        "name": "IT Metic - It Security Training Rate",
+        "goal": "Information security incidents are often influenced by human factors. As such, information security awareness training is a common practice that is tracked by percentage of employees who have completed training in the past year."
+    },
+    {
+        "id": "708280e5-3778-4c21-b91b-9ce4adab61a6",
+        "name": "IT Metic - Legacy Rate",
+        "goal": "The percentage of platforms and systems that are currently considered legacy including factors such as out-of-supportmcomponents. In some cases, an annual IT health check produces a more detailed risk assessment for each major application."
+    },
+    {
+        "id": "81a18b82-d126-42c2-890b-3c5f95b0e4d6",
+        "name": "IT Metic - Lines Of Code",
+        "goal": "The lines of source code in a software component is a commonly used approximation of software complexity. This has a wide variety of uses such as measuring software development productivity with a metric such as lines of code per day per developer."
+    },
+    {
+        "id": "8d8d07a0-c2d5-49cd-a460-6fecdfbeb7b8",
+        "name": "IT Metic - Mean Defect Age",
+        "goal": "The average age of unresolved defects for a project or change request."
+    },
+    {
+        "id": "8eb482a3-2f86-44b2-bc78-ccb572acec0a",
+        "name": "IT Metic - Mean Time Between Failures",
+        "goal": "Mean Time Between Failures for platforms, services, applications and devices is an indicator of availability and stability."
+    },
+    {
+        "id": "7320df27-6b9f-4dc0-a1b0-2dd0aba52769",
+        "name": "IT Metic - Mean Time To Recovery",
+        "goal": "The average time for a platform, service, application or device to recover from failure. A similar term, Mean Time To Repair (MTTR) has much the same meaning. Recovery is a widely preferred term because modern platforms often recovermautomatically from an incident without need of repairs."
+    },
+    {
+        "id": "7ffd602b-b233-4c34-88fe-8600dadc22da",
+        "name": "IT Metic - Noncompliance Events",
+        "goal": "The number of incidents that have compliance implications such as information privacy incidents. In many cases, certain types of incidents must be reported to regulatory bodies or customers. Compliance sensitive incidents is a common metric for corporate and IT governance reporting."
+    },
+    {
+        "id": "36a73bfd-ae29-4096-a8d9-794a9709f86d",
+        "name": "IT Metic - On Time Delivery Rate",
+        "goal": "The percentage of change requests, service requests or projects that are delivered to committed dates."
+    },
+    {
+        "id": "93ac6c18-ad92-4d64-9aeb-29dbaa23f1f8",
+        "name": "IT Metic - Outstanding Defects",
+        "goal": "The total unresolved defects for a project or change request."
+    },
+    {
+        "id": "95872a5f-9233-43a2-8d2d-33fde5694ad6",
+        "name": "IT Metic - Page Speed",
+        "goal": "The speed of services such as average load time for pages."
+    },
+    {
+        "id": "f97a70df-a14b-4bc4-9c10-15e17069b48e",
+        "name": "IT Metic - Patch Latency",
+        "goal": "The average time between availability of a patch and its deployment across your IT portfolio. Considered an information security metric."
+    },
+    {
+        "id": "c1cb1d50-24a2-4666-8679-38bcc38ecb44",
+        "name": "IT Metic - Patch Rate",
+        "goal": "The percentage of platforms, services, applications or components that are patched to the current recommended level."
+    },
+    {
+        "id": "59d4e0c3-a06b-4712-8b50-605db4082352",
+        "name": "IT Metic - Payback Period",
+        "goal": "The period of time, often in months, that it takes an IT investment to reach break-even."
+    },
+    {
+        "id": "cff29e4a-3f52-4179-9b82-b4f382c09ed1",
+        "name": "IT Metic - Planned Downtime Rate",
+        "goal": "The amount of planned downtime in a month as a total by service or average for all services."
+    },
+    {
+        "id": "3b6347e7-def1-44f4-87a5-031243da3956",
+        "name": "IT Metic - Problems",
+        "goal": "The current number of known problems by severity."
+    },
+    {
+        "id": "82ad6d5d-3e60-45a8-915f-7ccda7837528",
+        "name": "IT Metic - Process Cycle Time",
+        "goal": "The average time for key processes such as order-to-delivery to complete."
+    },
+    {
+        "id": "5df2e2f7-8bed-4d90-8052-0146097437e7",
+        "name": "IT Metic - Process Errors",
+        "goal": "The number of process errors that have a technology or data quality root cause."
+    },
+    {
+        "id": "77191b0f-fa9b-4d36-9b9a-161dcab228c9",
+        "name": "IT Metic - Project Cycle Time",
+        "goal": "The average time between project releases. Particularly relevant in an agile environment when teams may be expected to launch new functionality every few weeks."
+    },
+    {
+        "id": "cde130a8-08db-4b81-a74a-c70b25b53743",
+        "name": "IT Metic - Quality Rate",
+        "goal": "The percentage of test cases that pass on the first test for a project or change request. May exclude regression tests."
+    },
+    {
+        "id": "ce21da8f-896d-4473-b967-0a010d03f317",
+        "name": "IT Metic - Resource Utilization",
+        "goal": "How IT employees spend their time broken down by categories such as project work, system administration, change requests and incident response."
+    },
+    {
+        "id": "69cb595a-6f8d-46c0-a9bd-7632c0850f6f",
+        "name": "IT Metic - Return On Investment",
+        "goal": "Return On Investment is the sum of future cash flows generated by an IT investment expressed as a percentage of investment cost."
+    },
+    {
+        "id": "feac009b-8af0-4e91-87b3-f1d46ba484a3",
+        "name": "IT Metic - Schedule Variance",
+        "goal": "How close each project is to meeting its dates."
+    },
+    {
+        "id": "085ff30b-0a91-4d7f-99c8-1b6c768dc92f",
+        "name": "IT Metic - Security Incident Count",
+        "goal": "Total security incidents by severity."
+    },
+    {
+        "id": "0fa3725d-232a-43bb-a770-3ef02d7b1d7f",
+        "name": "IT Metic - Security Management Rate",
+        "goal": "An organization may define levels of security management and report the percentage of services, process and applications at each level."
+    },
+    {
+        "id": "e65e23fc-e00e-4f24-b58d-742a0c57b4cf",
+        "name": "IT Metic - Security Overhead",
+        "goal": "The cost of information security expressed as a percentage of revenue."
+    },
+    {
+        "id": "4d8abf57-e7ee-4a96-beb9-28754b1717ad",
+        "name": "IT Metic - Service Availability",
+        "goal": "Uptime for a service expressed as a percentage of time. In some cases, only core service hours are counted when a service isn't 24/7. Uptime targets are often expressed in all nines such as 99.99% and 99.999% these are known as four nines and five nines respectively."
+    },
+    {
+        "id": "7479c57d-355a-465b-a500-566f163660a4",
+        "name": "IT Metic - Service Downtime",
+        "goal": "The opposite of service availability, often expressed in downtime minutes."
+    },
+    {
+        "id": "2e6965c6-b78b-4ed8-a087-daa2047b09c1",
+        "name": "IT Metic - Service Overhead",
+        "goal": "The total annual cost for a service expressed as a percentage of revenue for an organization or business unit."
+    },
+    {
+        "id": "e201f4d8-5219-46b5-b0a1-982978845606",
+        "name": "IT Metic - Service Request Backlog",
+        "goal": "The current number of open service requests."
+    },
+    {
+        "id": "eec0e0e4-f088-4e77-970c-b746a1cac88c",
+        "name": "IT Metic - Service Requests Completed",
+        "goal": "The service requests completed in a period of time."
+    },
+    {
+        "id": "46e23b11-fd8a-4c9e-8b4e-22755d517358",
+        "name": "IT Metic - Service Satisfaction Rate",
+        "goal": "Clients are typically provided an opportunity to rate their satisfaction with each service request. This often feeds into performance management of service desk teams and representatives."
+    },
+    {
+        "id": "07b7435b-d172-423b-94dc-f2a0b7e61208",
+        "name": "IT Metic - Service Scalability",
+        "goal": "Total available capacity divided by current peak capacity. If your total capacity relies on a third party cloud platform the total available capacity may be meaningless or unknown. However, in some cases it makes sense to use your reserved instances as total capacity."
+    },
+    {
+        "id": "745c7285-209c-4f69-94c6-7a7ca900413a",
+        "name": "IT Metic - Service Productivity",
+        "goal": "Metrics that measure business usage of a service such as percentage of users who use the service on an average business day or number of business transactions processed. It is also common to capture productivity with dollar amounts such as the revenue generated by an ecommerce platform or deals handled by a sales system."
+    },
+    {
+        "id": "f82357ed-a071-4834-9b27-de8a155fb24b",
+        "name": "IT Metic - Sla Compliance Rate",
+        "goal": "A measure of compliance to service level agreements such as total violations in a month."
+    },
+    {
+        "id": "12586d6e-a4de-4cf0-a136-5e78ddf11104",
+        "name": "IT Metic - Time To Market",
+        "goal": "The average time to develop new IT services from concept to launch. Time to market is traditionally a marketing metric that is used to manage new product development."
+    },
+    {
+        "id": "223dd43d-f1c1-477a-b4bd-673414f9b215",
+        "name": "IT Metic - Time To Resolution",
+        "goal": "The average time to resolve incidents often reported by severity."
+    },
+    {
+        "id": "b584480c-fd87-4032-bbff-eb23663fa44d",
+        "name": "IT Metic - Use Case Points",
+        "goal": "A software estimation metric that is calculated by evaluating the business and technical complexity of each use case. Metrics can play an important role in achieving excellence as they force the organization to pay attention to their performance and prompt management to make adjustments when goals are not being achieved."
+    },
+    {
+        "id": "76e13dc9-c1c3-487e-9965-52b34fff5a30",
+        "name": "Operational Metric - Online Application Performance",
+        "goal": "The average time it takes to render a screen or page. It is also important to measure the variability of performance (discussed further in the supplemental operational metrics section)."
+    },
+    {
+        "id": "9b5f7978-bc33-41e4-ac0a-36e9875aba57",
+        "name": "Operational Metric - Online Application Availability",
+        "goal": "The percentage of time the application is functioning properly. This can be difficult to define. If the application is available for some users but not all, is it \"available?\" What if most functions are working but a minor function is not? To address this problem, I like to define the primary functions an application performs. Then, if any of these functions are unavailable, the application is considered down even if most of the application is usable. Also, if the application is primarily used during business hours, I like to have separate metrics for that time versus other times. So, the metrics might be: primary functions during business hours; all functions during business hours; primary functions 24x7; and all functions 24x7."
+    },
+    {
+        "id": "ad25bb85-2142-40f3-a516-d61ed841c818",
+        "name": "Operational Metric - Batch SLAs Met",
+        "goal": "The percentage of key batch jobs that finish on time."
+    },
+    {
+        "id": "69246c20-4a9f-4750-bb2b-6e37272e89b0",
+        "name": "Operational Metric - Production Incidents",
+        "goal": "The number of production problems by severity."
+    },
+    {
+        "id": "186cc754-15cf-4a55-ba21-ef502212c023",
+        "name": "Operational Metric - Supplemental Operational Metrics",
+        "goal": "Other metrics that might be used to enhance operational effectiveness include the number of unscheduled changes to the production systems, the throughput of batch processes, complexity scores for major applications (indicating how difficult they are to maintain), architectural integrity (the percent of applications on preferred technologies, another indication of how difficult applications are to maintain) and the variability of online application performance."
+    },
+    {
+        "id": "d439768d-acce-46d6-a35c-92c5c2df0469",
+        "name": "Delivery Metric - Project Satisfaction",
+        "goal": "The average score from post project surveys completed by business partners. After each project, it is important to solicit feedback from the business. The survey should contain one summary question for the project satisfaction metric (e.g., what is your overall satisfaction with this project on a scale of one to five?), a few more specific questions and an area for written comments. The survey should also be completed by the technology group to gain further insights on the areas that could be improved moving forward, but these scores are not included in the metric as they tend to be biased on the high side."
+    },
+    {
+        "id": "c09c5b32-7d41-4af9-bb43-4b38b93c04df",
+        "name": "Delivery Metric - Project Delivery",
+        "goal": "The percentage of projects delivered on time. \"On time\" is another tricky concept. For projects using the waterfall methodology, the projected delivery date can vary greatly once the team engages in the design process. I have found it useful to make sure business partners know that the delivery date is not set until design is done and therefore, this metric uses that date for a target. For Agile projects, this metric is not relevant as the delivery date is almost always met by adjusting scope."
+    },
+    {
+        "id": "858d035e-3039-4ac9-ba2e-b6e9ec93815f",
+        "name": "Delivery Metric - Project Cost",
+        "goal": "The percentage of projects delivered within the cost estimate. For this metric, I also use the post design cost estimate for the same reasons noted in the previous section. Again, Agile projects are less likely to benefit from this metric."
+    },
+    {
+        "id": "afdf642a-f562-485b-8c8c-c17aecc16753",
+        "name": "Delivery Metric - Defect Containment",
+        "goal": "The percentage of defects contained to the test environments. It is well known that defects are much more expensive to fix in production. This metric counts the defects corrected during the development process and compares this count to any defects found in the first 30 days of production. While 30 days may seem like a short period, I have tried using the first 90 days of production for this, but the wait to determine the metric was more problematic than the additional information provided by the longer timeframe."
+    },
+    {
+        "id": "ba0587d6-2503-4a08-834d-64b48700b6dc",
+        "name": "Delivery Metric - Supplemental Delivery Metrics",
+        "goal": "Additional metrics that might be included in this area: how well interim deliverables, such as the completion of design, are hit on time; how well first estimates compare to the final project cost; how many changes are made during the freeze between project completion and the production install; and how many projects require an unscheduled change after installation."
+    },
+    {
+        "id": "e78319f4-21b3-4153-b030-d959a3b25bc0",
+        "name": "Organizational Metric - Attrition",
+        "goal": "The percentage of employees who move to other jobs. For this metric, it is important to only include voluntary separations, as you do not want to provide managers with an incentive to retain poor performers. It is also important to differentiate between employees who leave the company versus those that leave to take another position within the company."
+    },
+    {
+        "id": "b1ee2983-a249-4d5a-bc7b-6b4d344dd60f",
+        "name": "Organizational Metric - Performance Reviews",
+        "goal": "The percentage of employees with current written reviews. Providing employees with constructive feedback is one of the most important steps an organization can take to improve productivity. Unfortunately, in many organizations, managers and employees dread this process and it is often neglected. The problem is often the enforcement of a grading system, which becomes the focus rather than the specific feedback. If you can do it, skip the grade and have the manager focus on what needs to happen for the employee to get to the next level — a discussion everyone should find useful."
+    },
+    {
+        "id": "4d9dba55-909e-4256-adeb-173beec1a74f",
+        "name": "Organizational Metric - Supplemental Organizational Metrics",
+        "goal": "There are many other metrics that can be useful in creating an engaged workforce. Examples include making sure employees have written performance expectations and goals at the start of the year, tracking the amount of training provided to employees (e.g., setting targets just like CPAs and other professionals mandate) and highlighting the number of employees in formal mentoring relationships."
+    },
+    {
+        "id": "ce9b2b32-d021-404d-a82e-8cc0125a3997",
+        "name": "Financial Metric -  Budget Variance",
+        "goal": "Actual costs compared to budgeted costs. This should be done for both direct expenses (salaries) and inter-company expenses (allocations from other areas) since direct expenses are more controllable."
+    },
+    {
+        "id": "94460b12-52b7-4fea-93c2-2defe2928180",
+        "name": "Financial Metric -  Resource Cost",
+        "goal": "The average cost of a technology resource. This metric provides a good view of how well managers are controlling costs by using cheaper outsourcing labor, being thoughtful in the use of higher priced temporary labor and managing an organization that is not top heavy with expensive employees (discussed in more detail in the Supplemental Financial Metrics section). Some organizations set targets for outsourcing (e.g., 30 percent of the workforce), but I think the overall resource cost metric is much more powerful. If managers believe they can be more productive and keep costs down using a variety of techniques, why not let them rather than focus on a single strategy?"
+    },
+    {
+        "id": "b9caa8e6-e71b-4f86-b264-2ed0c1218006",
+        "name": "Financial Metric -  Supplemental Financial Metrics",
+        "goal": "There are several other metrics that can be useful for organizations. Simply keeping a running total of the dollars saved from cost initiatives (e.g., moving to cheaper technologies) can help keep the focus on these projects. Tracking costs by activity (e.g., development versus maintenance versus running the systems versus other costs) can highlight areas for improvement."
+    },
+    {
+        "id": "a7ebaadd-4e98-4524-9fa7-5c64c324bc50",
+        "name": "IT Prject Metric - Earned Value Management (EVM)",
+        "goal": "Planned Value or Budgeted Cost of Work Scheduled (BCWS), i.e., authorized budget assigned to scheduled work"
+    },
+    {
+        "id": "9eeea3f8-90a8-4a5d-baaa-00f4b80011be",
+        "name": "IT Prject Metric - Earned Value Management (EVM)",
+        "goal": "Actual Cost or Actual Cost of Work Performed (ACWP), i.e., the realized cost incurred for the work performed on an activity during a specific time period"
+    },
+    {
+        "id": "2568025e-dba6-4b8a-bf6d-518914f4c8ea",
+        "name": "IT Prject Metric - Earned Value Management (EVM)",
+        "goal": "Earned Value or Budgeted Cost of Work Performed (BCWP), i.e., the measure of work performed expressed in terms of the budget authorized for that work"
+    },
+    {
+        "id": "3cb05cca-47d4-4037-9e28-baf80ad22079",
+        "name": "IT Prject Metric - Effort Estimation",
+        "goal": "Effort Estimation, i.e., an estimation, by an expert, of the amount of work required (e.g., hours) to complete project work"
+    },
+    {
+        "id": "90a6e2c9-8c9f-4d02-85cd-33d12958a973",
+        "name": "IT Prject Metric - Percent Complete",
+        "goal": "Percent complete, i.e., a measure based on duration; e.g., if a project task has an estimated duration of 4 days and 2 days have been completed then the percent complete is 50% (2/4=.5)"
+    },
+    {
+        "id": "aaded640-38aa-4789-bd06-1bae67065bc2",
+        "name": "IT Prject Metric - Percent Work Complete",
+        "goal": "Percent work complete, i.e., a measure based on work, similar but different from percent complete; e.g., if a project task has an estimated duration of 40 hours and 30 hours have been completed then the percent work complete is 75% (30/40=.75)"
+    },
+    {
+        "id": "226d3941-aeff-4a60-b9a2-8919ee0a9455",
+        "name": "IT Prject Metric - Velocity",
+        "goal": "Velocity, i.e., average amount of work a scrum team completes during a sprint (a fixed time period), measured in either story points or hours"
+    },
+    {
+        "id": "72ba6053-35bb-4bc1-9282-73aaad83b9b3",
+        "name": "IT Prject Metric - Sprint Burndown",
+        "goal": "Sprint Burndown, i.e., tracks completion of work throughout the Sprint"
+    },
+    {
+        "id": "49762784-a557-4e3c-b7a8-3e081c1423e1",
+        "name": "IT Prject Metric - Cumulative Flow Diagram",
+        "goal": "Cumulative Flow Diagram, i.e., ensure the flow of work across the team is consistent by measuring number of issues over time, Number of defects found or escaping to production, Number of customer support requests, Code churn, Self-assessment test or survey, Percentage increase over time of desktops/laptops on which sensitive data scanning tool has been deployed, Number of incidences of unapproved storage of sensitive data found on desktops/laptops over time"
+    }
+]
